@@ -53,6 +53,12 @@
 			margin-top: 30px;
 		}
 	}
+	.feed {
+		img {
+			height: 145px;
+			width: 145px;
+		}
+	}
 }
 @media (max-width: 767px) {
 	.promo {
@@ -109,6 +115,25 @@
 			height: 35px;
 			line-height: 35px;
 			font-size: 15px;
+		}
+	}
+	.footer {
+		&__info {
+			width: 380px;
+			height: 250px;
+		}
+		&__addr {
+			font-size: 15px;
+		}
+		&__phone {
+			font-size: 18px;
+		}
+		&__social-item {
+			width: 40px;
+			height: 40px;
+			img {
+				height: 22px;
+			}
 		}
 	}
 }
@@ -186,7 +211,6 @@
 			div {
 				transform: skewX(20deg);
 			}
-
 		}
 	}
 }
